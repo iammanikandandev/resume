@@ -1,70 +1,113 @@
-# Getting Started with Create React App
+Title:
+💼 React JS Developer Portfolio
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Introduction:
+Welcome to my personal React Developer Portfolio!
+This website showcases my React.js projects, technical skills, and professional profile — built with modern web development practices like responsive design, SEO optimization, and clean UI/UX structure.
 
-## Available Scripts
+🔗 Live Site: https://iammanikandandev.github.io/resume/
 
-In the project directory, you can run:
+🔧 Frameworks & Tools Used:
 
-### `npm start`
+Frontend Framework: React.js (Functional Components & JSX)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Styling: Bootstrap 5 + Custom CSS
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Icons: Font Awesome & Bootstrap Icons
 
-### `npm test`
+Animations: CSS Animations, Smooth Scrolling
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Version Control: Git + GitHub
 
-### `npm run build`
+Deployment: GitHub Pages (Free Hosting)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+📁 Project Structure Overview:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+pgsql
+Copy
+Edit
+├── public/
+│   └── index.html        → Base HTML file
+├── src/
+│   ├── components/       → All React components (Navbar, About, Projects, etc.)
+│   ├── assets/           → Images, logos, and icons
+│   ├── App.js            → Main layout component
+│   └── index.js          → ReactDOM entry point
+🎨 Responsive Design Details:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Uses Bootstrap Grid system to ensure responsiveness on:
 
-### `npm run eject`
+Mobile
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Tablet
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Desktop
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Media queries ensure clean breakpoints for all screen sizes.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Page sections use spacing (margin, padding) for neat layout.
 
-## Learn More
+Color Scheme:
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Primary color: #0d6efd (Bootstrap Blue)
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Secondary: #6c757d (Bootstrap Gray)
 
-### Code Splitting
+Background: #ffffff (White)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+Text: #212529 (Dark Gray)
 
-### Analyzing the Bundle Size
+📈 SEO & Performance:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+Meta tags added for search engine indexing:
 
-### Making a Progressive Web App
+<meta name="description" content="React Developer Portfolio - Manikandan">
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+<meta name="keywords" content="React, JavaScript, Developer, Resume, Portfolio">
 
-### Advanced Configuration
+<meta name="author" content="Manikandan">
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+Favicon included
 
-### Deployment
+Image alt tags used
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+Proper heading structure (H1, H2, H3)
 
-### `npm run build` fails to minify
+✨ Project Features:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+⚛️ Built with React Functional Components
+
+🎨 Modern UI with Bootstrap
+
+📱 Fully responsive design
+
+🔍 SEO-friendly HTML and structure
+
+💼 Projects, Skills, Resume & Contact sections
+
+🔗 Smooth anchor-based navigation
+
+☁️ Hosted for free via GitHub Pages
+
+🚀 Future Enhancements (Planned):
+
+🌗 Dark mode toggle
+
+📬 Contact form integration (EmailJS or Formspree)
+
+🧩 Add filtering for portfolio projects
+
+✨ Advanced scroll animations (e.g., AOS or Framer Motion)
+
+📬 Contact Information:
+
+Email: iammanikandandev@gmail.com
+
+Website: https://iammanikandandev.github.io/resume/
+
+GitHub: https://github.com/iammanikandandev
+
+LinkedIn: [Your LinkedIn URL here]
+
+💬 Quote:
+“Design is not just what it looks like and feels like. Design is how it works.” — Steve Jobs
