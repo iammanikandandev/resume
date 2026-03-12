@@ -40,7 +40,7 @@ const Skills = () => (
 
       <header>
         <h3 className="mb-5 fw-medium">
-          Technical Skills
+          Technical Expertise
         </h3>
       </header>
 

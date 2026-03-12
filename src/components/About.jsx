@@ -12,24 +12,42 @@ const About = () => (
       itemType="https://schema.org/Person"
     >
       <header>
-        <h1 className="text-muted h3 mb-1" id="about-title" itemProp="name">
-          Manikandan S
+        <h1 className="text-white h3 mb-1 opacity-75" id="about-title" itemProp="name">
+          Manikandan Shanmugam
         </h1>
-        <h2 className="text-muted display-6" itemProp="jobTitle">
-          Senior Front-End Web Developer
+        <h2 className="text-white fs-4 opacity-75" itemProp="jobTitle">
+          Senior Front-End Developer | React.js | Next.js | Shopify | 10+ Years Experience
         </h2>
       </header>
 
+
       <section className="mt-5" aria-labelledby="summary-title">
-        <h3 className="text-muted mb-2 h4" id="summary-title">Professional Summary</h3>
-        <p className="text-muted fs-5" itemProp="description">
-          Experienced <span className='fw-semibold'>Senior Front-End Developer</span> with 9+ years of expertise in
-          designing and developing scalable, responsive web applications. Skilled in 
-          <span className='fw-semibold'>front-end and back-end technologies</span>, <span className='fw-semibold'>UI/UX principles</span>,
-          and cross-functional collaboration to deliver high-quality digital solutions aligned with
-          business objectives.
+        <h3 className="text-muted mb-2 h4" id="summary-title">
+          Professional Summary
+        </h3>
+
+        <p
+          className="text-muted fs-5"
+          itemProp="description"
+          aria-label="Professional Summary"
+        >
+          Experienced <span className="fw-semibold">Senior Front-End Developer</span> with 
+          <span className="fw-semibold"> 10+ years of experience</span> designing and delivering 
+          <span className="fw-semibold"> scalable, high-performance web applications</span>. 
+          Specialized in <span className="fw-semibold">React.js</span>, 
+          <span className="fw-semibold">Next.js</span>, 
+          <span className="fw-semibold">Shopify</span>, and modern 
+          <span className="fw-semibold"> frontend architectures</span> with strong expertise in 
+          <span className="fw-semibold"> UI/UX design</span>, 
+          <span className="fw-semibold"> performance optimization</span>, and 
+          <span className="fw-semibold"> RESTful API integrations</span>. 
+          Proven ability to <span className="fw-semibold"> lead development teams</span>, 
+          <span className="fw-semibold"> accelerate project delivery</span>, and improve 
+          <span className="fw-semibold"> user engagement</span> through responsive and optimized interfaces.
         </p>
       </section>
+ 
+
 
       <address className="mt-4" itemProp="address" itemScope itemType="https://schema.org/PostalAddress">
         <ul className="list-group">
@@ -67,13 +85,13 @@ const About = () => (
           <li className="list-group-item bg-transparent text-muted ps-0 border-0">
             <i className="bi bi-globe-americas me-3" aria-hidden="true"></i>
             <a
-              href="http://iammanikandan.ct.ws/"
+              href=" https://iammanikandandev.github.io/resume/"
               target="_blank"
               rel="noopener noreferrer"
               itemProp="url"
               className="text-decoration-none text-muted"
             >
-              iammanikandan.ct.ws
+               iammanikandandev.github.io/resume/
             </a>
           </li>
           <li className="list-group-item bg-transparent text-muted ps-0 border-0">

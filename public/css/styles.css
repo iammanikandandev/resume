@@ -10834,7 +10834,7 @@ body {
 @media (min-width: 992px) {
   body {
     padding-top: 0;
-    padding-left: 30rem;
+    padding-left: 26rem;
   }
 }
 /* h1, .h1,
@@ -10890,7 +10890,7 @@ p.lead {
     left: 0;
     display: flex;
     flex-direction: column;
-    width: 30rem;
+    width: 26rem;
     height: 100vh;
   }
   #sideNav .navbar-brand {

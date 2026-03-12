@@ -1,95 +1,207 @@
-import React from 'react';
+import React from "react";
 
 const HighlightedProjects = () => (
-  <section className="resume-section p-5 text-start" id="highlighted-projects" style={{ textAlign: 'left' }}>
+  <section
+    className="resume-section p-5 text-start"
+    id="highlighted-projects"
+  >
     <div className="resume-section-content">
-       <header>
-        <h3 className="mb-5 fw-medium" style={{ textAlign: 'left' }}>
-          Highlighted projects
-        </h3>
+      <header>
+        <h3 className="mb-5 fw-medium">Highlighted Projects</h3>
       </header>
 
-      {/* Project 4 */}
-      <div>
-        <h5 className="fw-medium" style={{ textAlign: 'left' }}>#1 RentX.online </h5>
-        <p className="mb-2">
-          Developed a Modern Admin Dashboard for RentX.com & RentX.online
-          I designed and implemented responsive, intuitive admin dashboards for two platforms RentX.com and RentX.online enabling streamlined management of luxury transportation bookings. The dashboards deliver user‑friendly interfaces, dynamic forms, and powerful tools that mirror the seamless experience you’d expect from platforms like RentX.
-        </p>
-        <p className="mb-1 fw-semibold">Key Features:</p>
-        <ul className="ms-4">
-          <li>Real-Time Booking Management: Instantly access and manage active and historical bookings.</li>
-          <li>Advanced Data Handling: Search, filter, sort, and update records with ease.</li>
-          <li>Responsive Design: Fully adaptive layout supporting mobile and desktop workflows.</li>
-          <li>Integrated Tools: Google Maps API for location tracking, Typesense-powered search for fast filtering.</li>
-        </ul>
-        <p className="mb-1 fw-semibold">Technologies:</p>
-        <ul className="ms-4">
-          <li>Frontend: HTML5, CSS3, JavaScript, jQuery, Bootstrap 5</li>
-          <li>Backend: Core PHP, Laravel, Typesense, Google Maps API</li>
-        </ul>
-      </div>
-
       {/* Project 1 */}
-      <div className="mb-4">
-        <h5 className="fw-medium" style={{ textAlign: 'left' }}>#2 Partycentral</h5>
+      <div className="mb-5">
+        <h5 className="fw-semibold text-dark">#1 Glamdeva Admin</h5>
+
         <p className="mb-2">
-          Partycentral is a UK-based e-commerce event services platform—a central hub where customers browse, compare, and book venue, entertainment, décor, catering, and other event services through a trusted network of vetted suppliers across the UK
+          Built an <span className="fw-semibold">admin dashboard platform</span> for
+          Glamdeva, enabling management of mobile hair and makeup bookings
+          across the UK marketplace.
         </p>
-        <p className="mb-1 fw-semibold">Key Features:</p>
-        <ul className="ms-4">
-          <li>Effortless, intuitive navigation—enabling users to filter vendors by category, event type, location, and budget.</li>
-          <li>Side‑by‑side vendor comparison tools—help users evaluate services and pricing at a glance.</li>
-          <li>Streamlined booking workflows—including quote requests, vendor selection, and secure checkout links via WhatsApp or email.</li>
-          <li>Mobile‑friendly responsiveness—ensuring a smooth experience on any device.</li>
+
+        <ul className="ms-4 mb-2">
+          <li>
+            Developed <span className="fw-semibold">booking management dashboards</span>
+            enabling admins to track and manage real-time and historical bookings.
+          </li>
+
+          <li>
+            Implemented <span className="fw-semibold">search, filtering, and record updates</span>
+            improving operational efficiency for large booking datasets.
+          </li>
+
+          <li>
+            Built <span className="fw-semibold">responsive admin interfaces</span>
+            supporting both mobile and desktop workflows.
+          </li>
+
+          <li>
+            Integrated <span className="fw-semibold">Google Maps API</span> and
+            <span className="fw-semibold"> Typesense search</span> to enable fast
+            location tracking and data retrieval.
+          </li>
         </ul>
-        <p className="mb-1 fw-semibold">Technologies:</p>
-        <ul className="ms-4">
-          <li>Frontend: HTML5, CSS3, JavaScript, jQuery, Bootstrap 5</li>
-          <li>Backend: PHP, Laravel, Typesense</li>
-        </ul>
+
+        <p className="mb-1 fw-semibold">Tech Stack</p>
+        <p className="ms-3">
+          React.js, Next.js, HTML5, CSS3, JavaScript, Bootstrap 5,
+          Core PHP, Laravel, Typesense, Google Maps API
+        </p>
       </div>
 
       {/* Project 2 */}
-      <div className="mb-4">
-        <h5 className="fw-medium" style={{ textAlign: 'left' }}>#3 Add to Cart</h5>
+      <div className="mb-5">
+        <h5 className="fw-semibold text-dark">#2 RentX.online</h5>
+
         <p className="mb-2">
-         Add to Cart is a UK-based e‑commerce marketplace that curates a wide range of independent seller shops into a single, user-friendly platform—making browsing and shopping simple and seamless for consumers across the UK
+          Developed scalable <span className="fw-semibold">admin dashboards</span>
+          for RentX platforms to manage luxury transportation bookings and vendors.
         </p>
-        <p className="mb-1 fw-semibold">Key Features:</p>
-        <ul className="ms-4">
-          <li>Curated Marketplace: A wide range of independent seller shops in one place.</li>
-          <li>User-Friendly Interface: Intuitive design for seamless browsing and shopping.</li>
-          <li>Secure Transactions: Robust security measures for safe online shopping.</li>
-          <li>Personalized Recommendations: Tailored product suggestions based on user preferences.</li>
+
+        <ul className="ms-4 mb-2">
+          <li>
+            Built booking dashboards enabling admins to manage
+            <span className="fw-semibold"> real-time ride reservations</span>.
+          </li>
+
+          <li>
+            Implemented <span className="fw-semibold">data filtering and record management</span>
+            to streamline booking and vendor operations.
+          </li>
+
+          <li>
+            Designed <span className="fw-semibold">responsive UI dashboards</span>
+            improving usability across desktop and mobile devices.
+          </li>
+
+          <li>
+            Integrated <span className="fw-semibold">Google Maps API</span> and
+            <span className="fw-semibold"> Typesense search</span>
+            to enhance location tracking and search speed.
+          </li>
         </ul>
-        <p className="mb-1 fw-semibold">Technologies:</p>
-        <ul className="ms-4">
-          <li>Frontend: HTML5, CSS3, JavaScript, jQuery, Bootstrap 5</li>
-          <li>Backend: Laravel, Typesense</li>
-        </ul>
+
+        <p className="mb-1 fw-semibold">Tech Stack</p>
+        <p className="ms-3">
+          HTML5, CSS3, JavaScript, jQuery, Bootstrap 5,
+          Core PHP, Laravel, Typesense, Google Maps API
+        </p>
       </div>
 
       {/* Project 3 */}
-      <div>
-        <h5 className="fw-medium" style={{ textAlign: 'left' }}>#4 Bookingcentral and Afh.cloud</h5>
+      <div className="mb-5">
+        <h5 className="fw-semibold text-dark">#3 Partycentral</h5>
+
         <p className="mb-2">
-          Developed admin dashboard solutions for Bookingcentral and Afh.cloud, focused on creating responsive, user-friendly
-          interfaces and advanced data management capabilities. The projects involved building and enhancing admin dashboard-related
-          pages, forms, and interactive features tailored to the platforms' specific requirements.
+          Developed a UK-based <span className="fw-semibold">event services marketplace</span>
+          enabling users to discover and book venues, catering, décor, and
+          entertainment vendors.
         </p>
-        <p className="mb-1 fw-semibold">Key Features:</p>
-        <ul className="ms-4">
-          <li>Responsive Design: Adapts seamlessly to various screen sizes and devices.</li>
-          <li>Data Visualization: Interactive charts and graphs for insightful analytics.</li>
-          <li>User Management: Role-based access control and user activity tracking.</li>
-          <li>Customizable Dashboard: Widgets and layouts tailored to user preferences.</li>
+
+        <ul className="ms-4 mb-2">
+          <li>
+            Built vendor discovery features allowing users to
+            <span className="fw-semibold"> filter services by category, location, and event type</span>.
+          </li>
+
+          <li>
+            Implemented <span className="fw-semibold">vendor comparison tools</span>
+            enabling users to evaluate pricing and services side-by-side.
+          </li>
+
+          <li>
+            Developed <span className="fw-semibold">quote request and booking workflows</span>
+            improving vendor-customer communication.
+          </li>
+
+          <li>
+            Designed <span className="fw-semibold">mobile-responsive UI</span>
+            ensuring smooth browsing across devices.
+          </li>
         </ul>
-        <p className="mb-1 fw-semibold">Technologies:</p>
-        <ul className="ms-4">
-          <li>Frontend: HTML5, CSS3, JavaScript, jQuery, Bootstrap 5</li>
-          <li>Backend: Core PHP, Laravel, Typesense, Google Maps API</li>
+
+        <p className="mb-1 fw-semibold">Tech Stack</p>
+        <p className="ms-3">
+          HTML5, CSS3, JavaScript, jQuery, Bootstrap 5,
+          Laravel, Typesense
+        </p>
+      </div>
+
+      {/* Project 4 */}
+      <div className="mb-5">
+        <h5 className="fw-semibold text-dark">#4 Add to Cart</h5>
+
+        <p className="mb-2">
+          Built a <span className="fw-semibold">multi-vendor e-commerce marketplace</span>
+          aggregating independent seller stores into a unified shopping platform.
+        </p>
+
+        <ul className="ms-4 mb-2">
+          <li>
+            Developed <span className="fw-semibold">product listing and browsing interfaces</span>
+            improving marketplace navigation.
+          </li>
+
+          <li>
+            Implemented <span className="fw-semibold">secure checkout flows</span>
+            enabling safe online transactions.
+          </li>
+
+          <li>
+            Built <span className="fw-semibold">search and filtering features</span>
+            improving product discovery.
+          </li>
+
+          <li>
+            Optimized <span className="fw-semibold">responsive storefront layouts</span>
+            for consistent cross-device experiences.
+          </li>
         </ul>
+
+        <p className="mb-1 fw-semibold">Tech Stack</p>
+        <p className="ms-3">
+          HTML5, CSS3, JavaScript, jQuery, Bootstrap 5,
+          Laravel, Typesense
+        </p>
+      </div>
+
+      {/* Project 5 */}
+      <div>
+        <h5 className="fw-semibold text-dark">#5 Bookingcentral & Afh.cloud</h5>
+
+        <p className="mb-2">
+          Developed <span className="fw-semibold">enterprise admin dashboards</span>
+          providing analytics, user management, and operational insights.
+        </p>
+
+        <ul className="ms-4 mb-2">
+          <li>
+            Built <span className="fw-semibold">data visualization dashboards</span>
+            enabling real-time analytics and reporting.
+          </li>
+
+          <li>
+            Implemented <span className="fw-semibold">role-based access control</span>
+            improving platform security and user management.
+          </li>
+
+          <li>
+            Developed customizable dashboard widgets enabling
+            <span className="fw-semibold"> personalized admin workflows</span>.
+          </li>
+
+          <li>
+            Integrated <span className="fw-semibold">Google Maps API</span>
+            for location-based partner management.
+          </li>
+        </ul>
+
+        <p className="mb-1 fw-semibold">Tech Stack</p>
+        <p className="ms-3">
+          HTML5, CSS3, JavaScript, jQuery, Bootstrap 5,
+          Core PHP, Laravel, Typesense, Google Maps API
+        </p>
       </div>
     </div>
   </section>
