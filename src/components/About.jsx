@@ -16,7 +16,7 @@ const About = () => (
           Manikandan Shanmugam
         </h1>
         <h2 className="text-white fs-4 opacity-75" itemProp="jobTitle">
-          Senior Front-End Developer | React.js | Next.js | Shopify | 10+ Years Experience
+          Senior Front-End Developer | React.js | Next.js | 10+ Years Experience
         </h2>
       </header>
 
