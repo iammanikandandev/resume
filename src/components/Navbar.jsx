@@ -42,7 +42,7 @@ const Navbar = () => (
           {
             label: "Download CV",
             isExternal: true,
-            url:"./assets/files/Manikandan_Shanmugam_Resume.pdf"
+            url:"./assets/files/manikandanshanmugam_cv.pdf"
           },
         ].map((item) => (
           <li className="nav-item SMN_effect-15" key={item.label}>
